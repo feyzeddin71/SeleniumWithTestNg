@@ -1,0 +1,17 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="smoke">
+    <test name="Smoke module 6" parallel="classes" thread-count="4">
+
+        <classes>
+
+        <class name="day08.C1_KeyboardActions"></class>
+        <class name="day08.C2_MouseActions"></class>
+        <class name="day09.C1_Waits"></class>
+        <class name="day09.C2_JavaScriptExecuter"></class>
+
+        </classes>
+
+    </test>
+
+</suite>
